@@ -1,4 +1,4 @@
-#define WIDTH 10
+#define WIDTH 10 // height should always be odd
 #define HEIGHT 24
 
 class TetrisGameClass {
@@ -12,8 +12,8 @@ class TetrisGameClass {
 		void drop(Piece p, int dist);
 }
 
-TetrisGameClass() {
+TetrisGameClass::TetrisGameClass() {
 	for (int i = 0; i < HEIGHT; i++)
 		for (int j = 0; j < WIDTH; j++)
-			game_board[i][j] = 0;
+			this -> game_board[i][j] = 0;
 }
