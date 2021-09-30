@@ -1,10 +1,10 @@
-#include "TetrisGame.h"
-#include "Piece.h"
-#include <iostream>
 
 using namespace std;
+#include "TetrisGame.h"
+#include <iostream>
 
-TetrisGame tgame();
+
+//TetrisGame tgame();
 
 int main() {
 	
