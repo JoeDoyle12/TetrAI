@@ -1,7 +1,7 @@
 
-using namespace std;
-#include "TetrisGame.h"
+#include "TetrisGame.hpp"
 #include <iostream>
+using namespace std;
 
 
 //TetrisGame tgame();
